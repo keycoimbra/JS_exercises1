@@ -1,8 +1,8 @@
 // Crie uma função que irá imprimir a idade da pessoa. O usuário fornecerá o ano de nascimento
 
-function exibeIdade(idade) {
+function exibeIdade(ano) {
     var novaIdade;
-    novaIdade = 2022 - idade;
+    novaIdade = 2022 - ano;
     console.log(`Você tem ${novaIdade} anos`);
 }
 
